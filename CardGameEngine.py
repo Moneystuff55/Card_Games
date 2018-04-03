@@ -65,7 +65,10 @@ def deal(deck):
     hand = draw(hand,deck)
     ehand = draw(ehand,deck)
   return hand,ehand
+ pass
 
 def draw(hand,deck):
   hand.append(deck.pop(r.randint(0,len(deck)-1)))
   return hand
+
+play()
